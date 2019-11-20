@@ -1,0 +1,59 @@
+{
+  "name": "react-hexagonal-progressbar",
+  "version": "1.0.0",
+  "description": "A hexagonal progressbar component, built with SVG and extensively customizable.",
+  "main": "./build/index.js",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules"
+    }
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smaha/react-hexagonal-progressbar"
+  },
+  "keywords": [
+    "reactjs",
+    "hexagonal",
+    "progressbar",
+    "badge",
+    "level",
+    "react",
+    "hooks",
+    "gaming"
+  ],
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "author": "Smaha Mouhcine <mouhcine.smaha@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "clsx": "^1.0.4",
+    "css-loader": "^3.2.0",
+    "jest": "^24.9.0",
+    "jest-css-modules": "^2.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.12.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
