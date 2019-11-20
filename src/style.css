@@ -1,0 +1,29 @@
+.progress {
+    width: 80%;
+    height: 120px;
+    fill: rgba(0, 0, 0, 0);
+    color: #00000000;
+}
+
+.track {
+    transform: translate(290px, 800px)rotate(-120deg);
+}
+
+.fill {
+    transition: stroke-dashoffset 2s;
+    transform: translate(290px, 800px)rotate(-120deg);
+}
+
+.root {
+    display: inline;
+}
+
+.disabled {
+    color: #7b7b7b;
+}
+
+.value {
+    fill: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+}
